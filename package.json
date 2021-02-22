@@ -1,0 +1,32 @@
+{
+  "name": "youssoufiaairline",
+  "version": "1.0.0",
+  "description": "Application web ",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mednajjar/youssoufiaAirline.git"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "api",
+    "Ejs"
+  ],
+  "author": "Med-Najjar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mednajjar/youssoufiaAirline/issues"
+  },
+  "homepage": "https://github.com/mednajjar/youssoufiaAirline#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
