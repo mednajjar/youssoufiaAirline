@@ -1,6 +1,9 @@
 <h1 class="text-center mt-5">Login</h1>
 
 <div class="container mt-5">
+  <% if(errorMessage){ %>
+    <P class="text-center mt-3 text-danger"><%= errorMessage %></P>
+    <% } %>
    <div class="card cart mx-auto" >
     <form class="register mx-auto p-3" action="/login" method="POST">
         <div class="mb-3">
@@ -13,6 +16,7 @@
         </div>
         
         <button type="submit" class="btn btn-primary col-12">Login</button>
+     
       </form>
    </div> 
 </div>

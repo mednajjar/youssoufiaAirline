@@ -1,35 +1,46 @@
 const User = require('../models/Register')
 const bcrypt = require('bcryptjs');
 const session = require('express-session');
+const Offer = require('../models/Offer');
+
 
 exports.loginPage = (req, res) => {
-    res.render('login')
+    res.render('login',{errorMessage: req.flash('error')})
 }
 
 exports.postLogin = async (req, res, next) => {
-    try {
-        const ifUserExist = await User.findOne({
-            where: {
-                email: req.body.email,
-            }
-        })
+  
+    const ifUserExist = await User.findOne({
+        where: {
+            email: req.body.email,
+        }
+    }) 
         if (!ifUserExist) {
-            console.log('email or password doesn\'t match')
-           return res.redirect('login');
+            req.flash('error', 'Invalid email or password!')
+            return res.redirect('login');
         }
         const match = await bcrypt.compare(req.body.password, ifUserExist.password)
-        if(!match) return console.log('pass doesn\'t crypted');
-
-        if (match && ifUserExist){
-            req.session.userId = ifUserExist.regId;
-             return res.redirect('/checkout');
+   
+        if(!match){
+            req.flash('error', 'Invalid email or password!')
+            return res.redirect('login');
         } 
-        
-    } catch (err) {
-        return res.render(err)
-    }
-
-
-
-
+   
+        if (match && ifUserExist){
+            req.session.userId = ifUserExist.regId; 
+            console.log(req.session.offerID)
+                if(!req.session.offerID){ 
+                        return res.redirect('/')   
+                }else{
+                    Offer.findAll({
+                        where:{
+                            ofId: req.session.offerID,
+                        }
+                    })
+                    .then(newOffer=>{
+                        return res.render('checkout', {newOffer})
+                    })
+                    .catch(err=>console.log(err))
+                }                         
+            } 
 }

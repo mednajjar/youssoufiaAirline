@@ -6,15 +6,18 @@ const signinPage = require('./routes/signin')
 const loginPage = require('./routes/login')
 const checkoutPage = require('./routes/checkout')
 const logoutUser = require('./routes/logout')
+const offersPage = require('./routes/offers')
+const cartPage = require('./routes/cart')
 const path = require('path')
 const session = require('express-session')
 const SequelizeStore = require('connect-session-sequelize')(session.Store)
 const sequelize = require('./connection/database')
 const bodyParser = require('body-parser')
 const {auth}= require('./middleware/auth')
+const flash = require('connect-flash')
 
 
-
+app.use(flash())
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(ejsLayouts)
@@ -52,6 +55,8 @@ app.use(
 // myStore.sync();
 app.use((req, res, next) => {
     res.locals.sid = req.session.userId;
+    res.locals.numberOfPassengers = req.session.passNumber;
+    res.locals.myOfferId = req.session.offerID;
     next();
 });
 
@@ -59,9 +64,11 @@ app.use('/', homePage);
 app.use('/signin', signinPage);
 app.use('/login', loginPage);
 app.use('/logout', logoutUser);
+app.use('/offers', offersPage);
+app.use('/cart', cartPage);
 app.use('/checkout',auth, checkoutPage);
 
-//the last middleware should be 404 page
+// the last middleware should be 404 page
 app.use((req, res)=>{
     res.status(404).render('404')
 })

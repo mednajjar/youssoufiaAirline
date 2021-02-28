@@ -4,33 +4,39 @@
 
 <div class="container mt-5">
     <div class="card p-2">
+        <form action="/" method="POST">
         <div class="d-flex text-content-arround">
-            <select class="form-select" aria-label="Default select example">
+            
+            <select class="form-select" aria-label="Default select example" name="departure">
                 <option selected>Departure</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <% offers.map((data)=>{ %>
+                <option value="<%= data.departure %>"><%= data.departure %></option>
+                <% }) %>
             </select>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" name="arrival">
                 <option selected>Arrival</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <% offers.map((data)=>{ %>
+                <option value="<%= data.arrival %>"><%= data.arrival %></option>
+                <% }) %>
             </select>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" name="passengers">
                 <option selected>Passengers</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <% for(let i=0; i < 8; i++ ){ %>
+                <option value="<%= i+1 %>"><%= i+1 %></option>
+                <% } %>
+
             </select>
 
         </div>
         <div class="d-flex text-content-arround mt-3 ">
-            <input class="form-control" type="date">
-            <input class="form-control" type="date">
+            <input class="form-control" type="date" name="fromDate">
+            <input class="form-control" type="date" name="toDate">
         </div>
         <div class="container text-center">
             <button type="submit" class="btn btn-primary mt-3" style="width:50%;">Check</button>
         </div>
+    
     </div>
+</form>
+    
 </div>

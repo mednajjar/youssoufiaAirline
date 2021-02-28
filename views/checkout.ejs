@@ -1,1 +1,32 @@
-<h1>hello give money!</h1>
+<h1 class="text-center mt-5">hello give me your money!</h1>
+<h1 class="text-center mt-5">Checkout</h1>
+<% if(newOffer){ %>
+<% console.log(newOffer) %>
+<% newOffer.forEach((offer)=>{ %>
+    <div class="container mt-5 p-1">
+        <div class="card p-5">
+    <div class="d-flex justify-content-between">
+        <h4>Departure:</h4><p><%= offer.departure %></p>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Arrival:</h4><p><%= offer.arrival %></p>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Passengers:</h4><p><%= numberOfPassengers %></p>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Total:</h4><p><%= offer.price*numberOfPassengers %> DH</p>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Departure date:</h4><p><%= offer.date %></p>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Departure hour:</h4><p><%= offer.dhour %></p>
+    </div>
+    <div class="d-flex justify-content-between">
+        <h4>Airport:</h4><p><%= offer.airport %></p>
+    </div>
+</div>
+</div>
+<% }) %>
+<% } %>

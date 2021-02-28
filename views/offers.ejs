@@ -1,0 +1,44 @@
+<h1 class="text-center mt-5">Les Offers Disponible</h1>
+<div class="container">
+    <% if(offers){ %>
+    <% offers.forEach((data)=>{ %>
+        <form action="/offers" method="POST">
+    <div class="card mt-4 p-2 text-center">
+    
+        <div class="d-flex justify-content-between p-2 col-8 mx-auto">
+            <h3>Departure:</h3><input type="text" name="" value="<%= data.departure %>" disabled>
+            <% console.log(data.departure) %>
+        </div>
+       
+        <div class="d-flex justify-content-between p-2 col-8 mx-auto">
+            <h3>Arrival:</h3><input type="text" name="" value="<%= data.arrival %>" disabled>
+        </div>
+        <div class="d-flex justify-content-between p-2 col-8 mx-auto">
+            <h3>Price:</h3><input type="text" name="" value="<%= data.price %>" disabled>
+        </div>
+        <div class="d-flex justify-content-between p-2 col-8 mx-auto">
+            <h3>Departure hour:</h3><input type="text" name="" value="<%= data.dhour %>" disabled>
+        </div>
+        <div class="d-flex justify-content-between p-2 col-8 mx-auto">
+            <h3>Arrival hour:</h3><input type="text" name="" value="<%= data.ahour %>" disabled>
+        </div>
+        <div class="d-flex justify-content-between p-2 col-8 mx-auto">
+            <h3>Airport:</h3><input type="text" name="" value="<%= data.airport %>" disabled>
+        </div>
+        <div class="d-flex justify-content-between p-2 col-8 mx-auto">
+            <h3>Date:</h3><input type="text" name="" value="<%= data.date %>" disabled>
+        </div>
+        
+        <div class="container">
+            
+            <input type="hidden" name="offerId" value="<%= data.ofId %>">
+            <button type="submit" class="btn btn-primary mt-3 col-6">Checkout</button>
+            
+        </div>
+    </form>
+    </div>
+    <% }) %>
+    <% } %> 
+    
+        
+</div>

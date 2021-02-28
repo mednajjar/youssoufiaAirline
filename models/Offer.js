@@ -28,6 +28,9 @@ const Offer = sequelize.define('offers', {
     },
     date: {
         type: Sequelize.STRING
+    },
+    airport: {
+        type: Sequelize.STRING
     }
 
 })
