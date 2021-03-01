@@ -4,8 +4,10 @@ const session = require('express-session');
 const Offer = require('../models/Offer');
 
 
-exports.loginPage = (req, res) => {
+exports.loginPage = (req, res, next) => {
+    
     res.render('login',{errorMessage: req.flash('error')})
+   
 }
 
 exports.postLogin = async (req, res, next) => {

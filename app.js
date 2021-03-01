@@ -7,7 +7,7 @@ const loginPage = require('./routes/login')
 const checkoutPage = require('./routes/checkout')
 const logoutUser = require('./routes/logout')
 const offersPage = require('./routes/offers')
-const cartPage = require('./routes/cart')
+const orderPage = require('./routes/order')
 const path = require('path')
 const session = require('express-session')
 const SequelizeStore = require('connect-session-sequelize')(session.Store)
@@ -57,6 +57,7 @@ app.use((req, res, next) => {
     res.locals.sid = req.session.userId;
     res.locals.numberOfPassengers = req.session.passNumber;
     res.locals.myOfferId = req.session.offerID;
+    
     next();
 });
 
@@ -65,7 +66,7 @@ app.use('/signin', signinPage);
 app.use('/login', loginPage);
 app.use('/logout', logoutUser);
 app.use('/offers', offersPage);
-app.use('/cart', cartPage);
+app.use('/order', auth, orderPage);
 app.use('/checkout',auth, checkoutPage);
 
 // the last middleware should be 404 page

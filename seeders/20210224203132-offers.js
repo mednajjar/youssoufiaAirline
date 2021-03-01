@@ -8,8 +8,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Taroudannt Airport'
+      date: '2021-03-01',
+      airport: 'Taroudannt Airport',
+      passengers: 20
     }, 
     {
       departure: 'Rabat',
@@ -17,8 +18,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Rabat-Salé Airport'
+      date: '2021-03-01',
+      airport: 'Rabat-Salé Airport',
+      passengers: 20
     },
     {
       departure: 'Al Hoceima',
@@ -26,8 +28,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Cherif Al Idrissi Airport'
+      date: '2021-03-01',
+      airport: 'Cherif Al Idrissi Airport',
+      passengers: 20
     },
     {
       departure: 'Agadir',
@@ -35,8 +38,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Al Massira Airport'
+      date: '2021-03-01',
+      airport: 'Al Massira Airport',
+      passengers: 20
     },
     {
       departure: 'Ben Slimane',
@@ -44,8 +48,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Ben Slimane Airport'
+      date: '2021-03-01',
+      airport: 'Ben Slimane Airport',
+      passengers: 20
     },
     {
       departure: 'Beni Mellal',
@@ -53,8 +58,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Beni Mellal Airport'
+      date: '2021-03-01',
+      airport: 'Beni Mellal Airport',
+      passengers: 20
     },
     {
       departure: 'Bouarfa',
@@ -62,8 +68,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Bouarfa Airport'
+      date: '2021-03-01',
+      airport: 'Bouarfa Airport',
+      passengers: 20
     },
     {
       departure: 'Casablanca',
@@ -71,8 +78,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Mohammed V International Airport'
+      date: '2021-03-01',
+      airport: 'Mohammed V International Airport',
+      passengers: 20
     },
     {
       departure: 'Errachidia',
@@ -80,8 +88,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Moulay Ali Cherif Airport'
+      date: '2021-03-01',
+      airport: 'Moulay Ali Cherif Airport',
+      passengers: 20
     },
     {
       departure: 'Essaouira ',
@@ -89,8 +98,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Mogador Airport'
+      date: '2021-03-01',
+      airport: 'Mogador Airport',
+      passengers: 20
     },
     {
       departure: 'Fes',
@@ -98,8 +108,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Saïss Airport'
+      date: '2021-03-01',
+      airport: 'Saïss Airport',
+      passengers: 20
     },
     {
       departure: 'Guelmim',
@@ -107,8 +118,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Guelmim Airport'
+      date: '2021-03-01',
+      airport: 'Guelmim Airport',
+      passengers: 20
     },
     {
       departure: 'Ifrane',
@@ -116,8 +128,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Ifrane Airport'
+      date: '2021-03-01',
+      airport: 'Ifrane Airport',
+      passengers: 20
     },
     {
       departure: 'Marrakech',
@@ -125,8 +138,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Menara Airport'
+      date: '2021-03-01',
+      airport: 'Menara Airport',
+      passengers: 20
     },
     {
       departure: 'Nador',
@@ -134,8 +148,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Nador Airport'
+      date: '2021-03-01',
+      airport: 'Nador Airport',
+      passengers: 20
     },
     {
       departure: 'Ouarzazate',
@@ -143,8 +158,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Ouarzazate Airport'
+      date: '2021-03-01',
+      airport: 'Ouarzazate Airport',
+      passengers: 20
     },
     {
       departure: 'Ouezzane',
@@ -152,8 +168,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Ouezzane Airport'
+      date: '2021-03-01',
+      airport: 'Ouezzane Airport',
+      passengers: 20
     },
     {
       departure: 'Oujda',
@@ -161,8 +178,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Angads Airport'
+      date: '2021-03-01',
+      airport: 'Angads Airport',
+      passengers: 20
     },
     {
       departure: 'Tangier',
@@ -170,8 +188,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Ibn Battouta Airport'
+      date: '2021-03-01',
+      airport: 'Ibn Battouta Airport',
+      passengers: 20
     },
     {
       departure: 'Tan Tan',
@@ -179,8 +198,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Tan Tan Airport'
+      date: '2021-03-01',
+      airport: 'Tan Tan Airport',
+      passengers: 20
     },
     {
       departure: 'Taza',
@@ -188,8 +208,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Taza Airport'
+      date: '2021-03-01',
+      airport: 'Taza Airport',
+      passengers: 20
     },
     {
       departure: 'Tétouan',
@@ -197,8 +218,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Sania Ramel Airport'
+      date: '2021-03-01',
+      airport: 'Sania Ramel Airport',
+      passengers: 20
     },
     {
       departure: 'Zagora',
@@ -206,8 +228,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Zagora Airport'
+      date: '2021-03-01',
+      airport: 'Zagora Airport',
+      passengers: 20
     },
     {
       departure: 'Dakhla',
@@ -215,8 +238,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Dakhla Airport'
+      date: '2021-03-01',
+      airport: 'Dakhla Airport',
+      passengers: 20
     },
     {
       departure: 'El Aaiún',
@@ -224,8 +248,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Hassan I Airport'
+      date: '2021-03-01',
+      airport: 'Hassan I Airport',
+      passengers: 20
     },
     {
       departure: 'Smara',
@@ -233,8 +258,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-26',
-      airport: 'Smara Airport'
+      date: '2021-03-01',
+      airport: 'Smara Airport',
+      passengers: 20
     },
     {
       departure: 'Taroudannt',
@@ -242,8 +268,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Taroudannt Airport'
+      date: '2021-03-02',
+      airport: 'Taroudannt Airport',
+      passengers: 20
     }, 
     {
       departure: 'Rabat',
@@ -251,8 +278,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Rabat-Salé Airport'
+      date: '2021-03-02',
+      airport: 'Rabat-Salé Airport',
+      passengers: 20
     },
     {
       departure: 'Al Hoceima',
@@ -260,8 +288,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Cherif Al Idrissi Airport'
+      date: '2021-03-02',
+      airport: 'Cherif Al Idrissi Airport',
+      passengers: 20
     },
     {
       departure: 'Agadir',
@@ -269,8 +298,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Al Massira Airport'
+      date: '2021-03-02',
+      airport: 'Al Massira Airport',
+      passengers: 20
     },
     {
       departure: 'Ben Slimane',
@@ -278,8 +308,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Ben Slimane Airport'
+      date: '2021-03-02',
+      airport: 'Ben Slimane Airport',
+      passengers: 20
     },
     {
       departure: 'Beni Mellal',
@@ -287,8 +318,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Beni Mellal Airport'
+      date: '2021-03-02',
+      airport: 'Beni Mellal Airport',
+      passengers: 20
     },
     {
       departure: 'Bouarfa',
@@ -296,8 +328,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Bouarfa Airport'
+      date: '2021-03-02',
+      airport: 'Bouarfa Airport',
+      passengers: 20
     },
     {
       departure: 'Casablanca',
@@ -305,8 +338,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Mohammed V International Airport'
+      date: '2021-03-02',
+      airport: 'Mohammed V International Airport',
+      passengers: 20
     },
     {
       departure: 'Errachidia',
@@ -314,8 +348,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Moulay Ali Cherif Airport'
+      date: '2021-03-02',
+      airport: 'Moulay Ali Cherif Airport',
+      passengers: 20
     },
     {
       departure: 'Essaouira ',
@@ -323,8 +358,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Mogador Airport'
+      date: '2021-03-02',
+      airport: 'Mogador Airport',
+      passengers: 20
     },
     {
       departure: 'Fes',
@@ -332,8 +368,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Saïss Airport'
+      date: '2021-03-02',
+      airport: 'Saïss Airport',
+      passengers: 20
     },
     {
       departure: 'Guelmim',
@@ -341,8 +378,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Guelmim Airport'
+      date: '2021-03-02',
+      airport: 'Guelmim Airport',
+      passengers: 20
     },
     {
       departure: 'Ifrane',
@@ -350,8 +388,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Ifrane Airport'
+      date: '2021-03-02',
+      airport: 'Ifrane Airport',
+      passengers: 20
     },
     {
       departure: 'Marrakech',
@@ -359,8 +398,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Menara Airport'
+      date: '2021-03-02',
+      airport: 'Menara Airport',
+      passengers: 20
     },
     {
       departure: 'Nador',
@@ -368,8 +408,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Nador Airport'
+      date: '2021-03-02',
+      airport: 'Nador Airport',
+      passengers: 20
     },
     {
       departure: 'Ouarzazate',
@@ -377,8 +418,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Ouarzazate Airport'
+      date: '2021-03-02',
+      airport: 'Ouarzazate Airport',
+      passengers: 20
     },
     {
       departure: 'Ouezzane',
@@ -386,8 +428,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Ouezzane Airport'
+      date: '2021-03-02',
+      airport: 'Ouezzane Airport',
+      passengers: 20
     },
     {
       departure: 'Oujda',
@@ -395,8 +438,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Angads Airport'
+      date: '2021-03-02',
+      airport: 'Angads Airport',
+      passengers: 20
     },
     {
       departure: 'Tangier',
@@ -404,8 +448,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Ibn Battouta Airport'
+      date: '2021-03-02',
+      airport: 'Ibn Battouta Airport',
+      passengers: 20
     },
     {
       departure: 'Tan Tan',
@@ -413,8 +458,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Tan Tan Airport'
+      date: '2021-03-02',
+      airport: 'Tan Tan Airport',
+      passengers: 20
     },
     {
       departure: 'Taza',
@@ -422,8 +468,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Taza Airport'
+      date: '2021-03-02',
+      airport: 'Taza Airport',
+      passengers: 20
     },
     {
       departure: 'Tétouan',
@@ -431,8 +478,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Sania Ramel Airport'
+      date: '2021-03-02',
+      airport: 'Sania Ramel Airport',
+      passengers: 20
     },
     {
       departure: 'Zagora',
@@ -440,8 +488,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Zagora Airport'
+      date: '2021-03-02',
+      airport: 'Zagora Airport',
+      passengers: 20
     },
     {
       departure: 'Dakhla',
@@ -449,8 +498,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Dakhla Airport'
+      date: '2021-03-02',
+      airport: 'Dakhla Airport',
+      passengers: 20
     },
     {
       departure: 'El Aaiún',
@@ -458,8 +508,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Hassan I Airport'
+      date: '2021-03-02',
+      airport: 'Hassan I Airport',
+      passengers: 20
     },
     {
       departure: 'Smara',
@@ -467,8 +518,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-27',
-      airport: 'Smara Airport'
+      date: '2021-03-02',
+      airport: 'Smara Airport',
+      passengers: 20
     },
     {
       departure: 'Taroudannt',
@@ -476,8 +528,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Taroudannt Airport'
+      date: '2021-03-03',
+      airport: 'Taroudannt Airport',
+      passengers: 20
     }, 
     {
       departure: 'Rabat',
@@ -485,8 +538,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Rabat-Salé Airport'
+      date: '2021-03-03',
+      airport: 'Rabat-Salé Airport',
+      passengers: 20
     },
     {
       departure: 'Al Hoceima',
@@ -494,8 +548,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Cherif Al Idrissi Airport'
+      date: '2021-03-03',
+      airport: 'Cherif Al Idrissi Airport',
+      passengers: 20
     },
     {
       departure: 'Agadir',
@@ -503,8 +558,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Al Massira Airport'
+      date: '2021-03-03',
+      airport: 'Al Massira Airport',
+      passengers: 20
     },
     {
       departure: 'Ben Slimane',
@@ -512,8 +568,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Ben Slimane Airport'
+      date: '2021-03-03',
+      airport: 'Ben Slimane Airport',
+      passengers: 20
     },
     {
       departure: 'Beni Mellal',
@@ -521,8 +578,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Beni Mellal Airport'
+      date: '2021-03-03',
+      airport: 'Beni Mellal Airport',
+      passengers: 20
     },
     {
       departure: 'Bouarfa',
@@ -530,8 +588,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Bouarfa Airport'
+      date: '2021-03-03',
+      airport: 'Bouarfa Airport',
+      passengers: 20
     },
     {
       departure: 'Casablanca',
@@ -539,8 +598,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Mohammed V International Airport'
+      date: '2021-03-03',
+      airport: 'Mohammed V International Airport',
+      passengers: 20
     },
     {
       departure: 'Errachidia',
@@ -548,8 +608,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Moulay Ali Cherif Airport'
+      date: '2021-03-03',
+      airport: 'Moulay Ali Cherif Airport',
+      passengers: 20
     },
     {
       departure: 'Essaouira ',
@@ -557,8 +618,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Mogador Airport'
+      date: '2021-03-03',
+      airport: 'Mogador Airport',
+      passengers: 20
     },
     {
       departure: 'Fes',
@@ -566,8 +628,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Saïss Airport'
+      date: '2021-03-03',
+      airport: 'Saïss Airport',
+      passengers: 20
     },
     {
       departure: 'Guelmim',
@@ -575,8 +638,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Guelmim Airport'
+      date: '2021-03-03',
+      airport: 'Guelmim Airport',
+      passengers: 20
     },
     {
       departure: 'Ifrane',
@@ -584,8 +648,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Ifrane Airport'
+      date: '2021-03-03',
+      airport: 'Ifrane Airport',
+      passengers: 20
     },
     {
       departure: 'Marrakech',
@@ -593,8 +658,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Menara Airport'
+      date: '2021-03-03',
+      airport: 'Menara Airport',
+      passengers: 20
     },
     {
       departure: 'Nador',
@@ -602,8 +668,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Nador Airport'
+      date: '2021-03-03',
+      airport: 'Nador Airport',
+      passengers: 20
     },
     {
       departure: 'Ouarzazate',
@@ -611,8 +678,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Ouarzazate Airport'
+      date: '2021-03-03',
+      airport: 'Ouarzazate Airport',
+      passengers: 20
     },
     {
       departure: 'Ouezzane',
@@ -620,8 +688,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Ouezzane Airport'
+      date: '2021-03-03',
+      airport: 'Ouezzane Airport',
+      passengers: 20
     },
     {
       departure: 'Oujda',
@@ -629,8 +698,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Angads Airport'
+      date: '2021-03-03',
+      airport: 'Angads Airport',
+      passengers: 20
     },
     {
       departure: 'Tangier',
@@ -638,8 +708,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Ibn Battouta Airport'
+      date: '2021-03-03',
+      airport: 'Ibn Battouta Airport',
+      passengers: 20
     },
     {
       departure: 'Tan Tan',
@@ -647,8 +718,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Tan Tan Airport'
+      date: '2021-03-03',
+      airport: 'Tan Tan Airport',
+      passengers: 20
     },
     {
       departure: 'Taza',
@@ -656,8 +728,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Taza Airport'
+      date: '2021-03-03',
+      airport: 'Taza Airport',
+      passengers: 20
     },
     {
       departure: 'Tétouan',
@@ -665,8 +738,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Sania Ramel Airport'
+      date: '2021-03-03',
+      airport: 'Sania Ramel Airport',
+      passengers: 20
     },
     {
       departure: 'Zagora',
@@ -674,8 +748,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Zagora Airport'
+      date: '2021-03-03',
+      airport: 'Zagora Airport',
+      passengers: 20
     },
     {
       departure: 'Dakhla',
@@ -683,8 +758,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Dakhla Airport'
+      date: '2021-03-03',
+      airport: 'Dakhla Airport',
+      passengers: 20
     },
     {
       departure: 'El Aaiún',
@@ -692,8 +768,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Hassan I Airport'
+      date: '2021-03-03',
+      airport: 'Hassan I Airport',
+      passengers: 20
     },
     {
       departure: 'Smara',
@@ -701,8 +778,9 @@ module.exports = {
       price: 2000,
       dhour: '10h34',
       ahour: '11h45',
-      date: '2021-02-28',
-      airport: 'Smara Airport'
+      date: '2021-03-03',
+      airport: 'Smara Airport',
+      passengers: 20
     },
   ]);
   },

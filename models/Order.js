@@ -2,38 +2,29 @@ const Sequelize = require('sequelize')
 
 const sequelize = require('../connection/database')
 
-const Offer = sequelize.define('offers', {
-    ofId:{
+const Order = sequelize.define('orders', {
+    orId:{
         type: Sequelize.INTEGER,
         autoIncrement: true,
         allowNull: false,
         primaryKey: true
 
     },
-    departure: {
-        type: Sequelize.STRING
+    ofId: {
+        type: Sequelize.INTEGER,
+        allowNull: false
     },
-    arrival : {
-        type: Sequelize.STRING
+    regId : {
+        type: Sequelize.INTEGER,
+        allowNull: false
     },
-    price:{
+    totalPrice:{
         type: Sequelize.DOUBLE,
         allowNull: false
     },
-    dhour : {
-        type: Sequelize.STRING
-    },
-    ahour : {
-        type: Sequelize.STRING
-    },
-    date: {
-        type: Sequelize.STRING
-    },
-    airport: {
-        type: Sequelize.STRING
-    },
-    passengers: {
+    passengersNum : {
         type: Sequelize.INTEGER,
+        allowNull: false
     },
     // Timestamps
     createdAt: {
@@ -49,7 +40,7 @@ const Offer = sequelize.define('offers', {
     }
 
 })
-// Offer.sync()
+// Order.sync()
 // .then(result=>{
 //     console.log(result)
     
@@ -57,4 +48,4 @@ const Offer = sequelize.define('offers', {
 // .catch(err=>{
 //     console.log(err)
 // })
-module.exports = Offer;
+module.exports = Order;
