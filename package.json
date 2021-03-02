@@ -37,6 +37,9 @@
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
+    "nodemailer": "^6.5.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemailer-smtp-transport": "^2.7.4",
     "sequelize": "^6.5.0",
     "stripe": "^8.137.0"
   }

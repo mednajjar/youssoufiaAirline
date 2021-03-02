@@ -1,7 +1,21 @@
 
 const session = require('express-session')
 const Order = require('../models/Order')
+const Register = require('../models/Register')
+const nodemailer = require('nodemailer')
+require('dotenv').config();
+// const sendgridTransport = require('nodemailer-sendgrid-transport')
+const smtpTransport = require('nodemailer-smtp-transport');
 const stripe = require('stripe')('sk_test_51IPq0nBnrf46QwruBqC1tYaSEBGy3vbYfIQwbvHzOKybktsafDR3W7oZvd01LgfiqL2KHpfR9A6oIvBRpqmAUJoz00Wkd3eiXn');
+// const mymail = req.session.userEmail;
+let transporter = nodemailer.createTransport(smtpTransport({    
+    host: 'smtp.gmail.com', 
+    auth: { 
+        type:'custom',       
+         user: process.env.GM_E,        
+         pass: process.env.GM_P    
+    }
+}));
 
 exports.orderPage = (req, res, next)=>{
     res.render('order')
@@ -33,12 +47,39 @@ exports.postOrder = async (req, res, next)=>{
                 source: token,
                 metadata: {orId: myOrder.orId}
             })
-            return res.render('order', {myOrder})
+            
+            // const findUser = await Register.findAll({
+            //     where:{
+            //         regId: req.session.userId
+            //     }
+            // })
+            // if(findUser){
+                res.render('order', {myOrder})
+                console.log(req.session.userEmail)
+                const mailOptions = {
+                    from: process.env.GM_E,
+                    to: req.session.userEmail,
+                    subject: 'fly ticket order',
+                    html: '<h1> You successfully order a ticket</h1>'
+                  };
+                return transporter.sendMail(mailOptions, function(error, info){
+                    if (error) {
+                      console.log(error);
+                    } else {
+                      console.log('Email sent: ' + info.response);
+                    }
+                  }); 
+                
+                 
+                
+            //     .catch(err=>console.log(err))
+            // }
+            
+             
         }
     } 
-    next()  
-}
-
-exports.updatePassengers = (req, res, next)=>{
     
+}
+exports.updatePassengers = (req, res, next)=>{
+
 }

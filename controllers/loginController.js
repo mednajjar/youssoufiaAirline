@@ -29,7 +29,10 @@ exports.postLogin = async (req, res, next) => {
         } 
    
         if (match && ifUserExist){
-            req.session.userId = ifUserExist.regId; 
+            const {email}=req.body;
+            req.session.userId = ifUserExist.regId;
+            req.session.userEmail = email;
+            console.log('email:' + email) 
             console.log(req.session.offerID)
                 if(!req.session.offerID){ 
                         return res.redirect('/')   

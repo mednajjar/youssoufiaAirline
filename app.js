@@ -55,6 +55,7 @@ app.use(
 // myStore.sync();
 app.use((req, res, next) => {
     res.locals.sid = req.session.userId;
+    res.locals.email = req.session.userEmail;
     res.locals.numberOfPassengers = req.session.passNumber;
     res.locals.myOfferId = req.session.offerID;
     
