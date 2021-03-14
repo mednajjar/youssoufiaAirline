@@ -16,7 +16,7 @@
         <form action="/order" method="POST">
             <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-            data-key="pk_test_51IPq0nBnrf46QwrudY7pyphtWGwB5SbMuYIs9wJ7msjvA4yOT5cg409WMqwPjSgd0UcjchOi33Q8Ycq5lcmYCCP700TqXmcW5Z"
+            data-key="**public_key_from_stripe**"
             data-amount="<%= order.price*numberOfPassengers*100 %>"
             data-name="Your Order"
             data-description="Fly Ticket"
