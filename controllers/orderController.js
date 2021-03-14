@@ -6,7 +6,7 @@ const nodemailer = require('nodemailer')
 require('dotenv').config();
 // const sendgridTransport = require('nodemailer-sendgrid-transport')
 const smtpTransport = require('nodemailer-smtp-transport');
-const stripe = require('stripe')('sk_test_51IPq0nBnrf46QwruBqC1tYaSEBGy3vbYfIQwbvHzOKybktsafDR3W7oZvd01LgfiqL2KHpfR9A6oIvBRpqmAUJoz00Wkd3eiXn');
+const stripe = require('stripe')('**secret_key_from_stripe**');
 // const mymail = req.session.userEmail;
 let transporter = nodemailer.createTransport(smtpTransport({    
     host: 'smtp.gmail.com', 
